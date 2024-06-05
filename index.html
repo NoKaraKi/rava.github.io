@@ -3,67 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фильмы, Сериалы, Аниме</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Two.Kin</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="#">Войти</a>
-        <a href="#">Регистрация</a>
-    </div>
-    <div class="container">
-        <div class="content">
-            <div class="details">
-                <div class="info">
-                    Наруто - Официальный трейлер
-                </div>
-                <div class="video-container">
-                    <video controls>
-                        <source src="video/Наруто - Официальный трейлер (HD).mp4" type="video/mp4">
-                        Ваш браузер не поддерживает видео тег.
-                    </video>
-                </div>
-            </div>
-            <div class="chat">
-                <div class="chat-header">ЧАТ</div>
-                <div class="chat-messages" id="chat-messages"></div>
-                <input type="text" id="chat-input" placeholder="Введите сообщение...">
-                <button onclick="sendMessage()">Отправить</button>
-            </div>
+    <header>
+        <div class="logo">Two.Kin</div>
+        <div class="auth-buttons">
+            <button>Регистрация</button>
+            <button>Войти</button>
         </div>
-        <div class="movies">
-            <div class="movie">
-                <img src="IMAGES/fairy tail.jpg" alt="Fairy Tail">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/one piece.jpg" alt="One Piece">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/futurama.jpg" alt="Futurama">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/bob.jpg" alt="Губка Боб">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/the simpsons.jpg" alt="Симпсоны">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/rick.jpg" alt="Рик и Морти">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/million.jpeg" alt="Миллион">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/zombi.jpg" alt="Зомби">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/spuder.jpg" alt="Человек-Паук">
-            </div>
-            <div class="movie">
-                <img src="IMAGES/adve.jpg" alt="Мстители">
-            </div>
+    </header>
+    <section class="main-banner">
+        <video src="video\Demon Slayer _ Kimetsu no yaiba Season 4 (Infinity Castle Arc) Trailer _ Anime 2024.mp4" loop autoplay muted></video>
+        <div class="banner-text">
+            <h1></h1>
+            <p></p>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </section>
+    <section class="content">
+        <div class="section-title">Новинки</div>
+        <div class="card-container">
+            <div class="card"> <a href="index.html"><img src="IMAGES/fairy tail.jpg"  alt="Fairy Tail"></a></div>
+            <div class="card"><img src="IMAGES/one piece.jpg" alt="One Piece"></div>
+            <div class="card"><img src="IMAGES/adve.jpg" alt="Adventure"></div>
+            <div class="card"><img src="IMAGES/rick.jpg" alt="Rick and Morty"></div>
+        </div>
+        <div class="section-title">Рекомендуем</div>
+        <div class="card-container">
+            <div class="card"><img src="IMAGES/million.jpeg" alt="Millionaire"></div>
+            <div class="card"><img src="IMAGES/spuder.jpg" alt="Spider-Man"></div>
+        </div>
+    </section>
 </body>
 </html>
