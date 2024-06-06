@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Karia, sans-serif;
+    background-image: url('IMAGES/крд.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.login-container {
+    background-color: rgba(255, 0, 0, 0.825);
+    padding: 40px; 
+    border-radius: 20px; 
+    text-align: center;
+    width: 500px; /* Увеличена ширина */
+}
+
+.login-container h1 {
+    background-color: #ff0000;
+    margin: -40px -40px 40px -40px; /* Увеличены отступы */
+    padding: 20px; /* Увеличен padding */
+    border-radius: 20px 20px 0 0;
+    font-size: 36px; /* Увеличен размер шрифта */
+}
+
+.input-group {
+    margin-bottom: 25px; /* Увеличен отступ */
+}
+
+.input-group input {
+    width: calc(100% - 40px); /* Увеличена ширина */
+    padding: 15px; /* Увеличен padding */
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 18px; /* Увеличен размер шрифта */
+}
+
+button {
+    padding: 15px 30px; /* Увеличен padding */
+    border: none;
+    border-radius: 20px;
+    background-color: #232323;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px; /* Увеличен размер шрифта */
+}
+
+button:hover {
+    background-color: #1f1e1e;
+}
